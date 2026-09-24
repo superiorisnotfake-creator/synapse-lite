@@ -1,10 +1,9 @@
 {
-  "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "your-app-name",
+  "name": "synapse-lite",
   "compatibility_date": "2026-09-24",
 
   "assets": {
-    "directory": "./dist",
+    "directory": ".",
     "not_found_handling": "single-page-application"
   }
 }
